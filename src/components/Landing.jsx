@@ -26,7 +26,6 @@ export function Landing() {
     (<div className="flex flex-col min-h-[100dvh]">
       <header className="px-4 lg:px-6 h-14 flex items-center">
         <Link className="flex items-center justify-center" href="#">
-          {/* <GiftIcon className="h-6 w-6" /> */}
           <img
             alt="Charix Token"
             className="h-12 w-12"
@@ -59,7 +58,7 @@ export function Landing() {
       </header>
       <main className="flex-1">
         <section className="w-full py-12 md:py-24 lg:py-32 xl:py-48 bg-[#f0f9ff]">
-          <div className="container px-4 md:px-6">
+          <div className="px-4 md:px-6">
             <div className="flex flex-col items-center space-y-4 text-center">
               <div className="space-y-2">
                 <h1
@@ -83,7 +82,7 @@ export function Landing() {
           </div>
         </section>
         <section className="w-full py-12 md:py-24 lg:py-32 bg-white" id="vision">
-          <div className="container px-4 md:px-6">
+          <div className="px-4 md:px-6">
             <div
               className="grid items-center gap-6 lg:grid-cols-[1fr_500px] lg:gap-12 xl:grid-cols-[1fr_550px]">
               <div className="flex flex-col justify-center space-y-4">
@@ -111,7 +110,7 @@ export function Landing() {
         </section>
         <section className="w-full py-12 md:py-24 lg:py-32 bg-[#f0f9ff]" id="stats">
           <div
-            className="container grid items-center justify-center gap-4 px-4 text-center md:px-6 lg:gap-10">
+            className="grid items-center justify-center gap-4 px-4 text-center md:px-6 lg:gap-10">
             <div className="space-y-3">
               <h2
                 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-[#0077b6]">
@@ -135,7 +134,7 @@ export function Landing() {
           </div>
         </section>
         <section className="w-full py-12 md:py-24 lg:py-32 bg-white" id="community">
-          <div className="container px-4 md:px-6">
+          <div className="px-4 md:px-6">
             <div
               className="grid items-center gap-6 lg:grid-cols-[500px_1fr] lg:gap-12 xl:grid-cols-[550px_1fr]">
               <img
@@ -164,7 +163,7 @@ export function Landing() {
         </section>
         <section className="w-full py-12 md:py-24 lg:py-32 bg-[#f0f9ff]" id="donate">
           <div
-            className="container grid items-center justify-center gap-4 px-4 text-center md:px-6">
+            className="grid items-center justify-center gap-4 px-4 text-center md:px-6">
             <div className="space-y-3">
               <h2
                 className="text-3xl font-bold tracking-tighter md:text-4xl/tight text-[#0077b6]">
