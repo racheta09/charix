@@ -36,23 +36,13 @@ export function Landing() {
         <nav className="ml-auto flex gap-4 sm:gap-6">
           <Link
             className="text-sm font-medium hover:underline underline-offset-4"
-            href="#">
-            Vision
+            href="https://x.com/charix_token">
+            Twitter
           </Link>
           <Link
             className="text-sm font-medium hover:underline underline-offset-4"
-            href="#">
-            Stats
-          </Link>
-          <Link
-            className="text-sm font-medium hover:underline underline-offset-4"
-            href="#">
-            Community
-          </Link>
-          <Link
-            className="text-sm font-medium hover:underline underline-offset-4"
-            href="#">
-            Donate
+            href="https://t.me/charixtoken">
+            Telegram
           </Link>
         </nav>
       </header>
